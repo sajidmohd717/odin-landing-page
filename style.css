@@ -30,6 +30,7 @@ a {
     margin-right: auto;
     font-size: large;
     font-weight: bold;
+    margin-left: 50px;
 }
 
 body {
@@ -37,7 +38,11 @@ body {
     padding: 0px;
 }
 
-img {
+.blue-block {
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #3882f6;
+    background-color: white;
     height: 150px;
     width: 150px;
 }
@@ -68,7 +73,7 @@ img {
     padding: 1.5%;
     padding-left: 5%;
     padding-right: 5%;
-    
+    font-weight: bold;
     border-radius: 10px;
 }
 
@@ -89,6 +94,7 @@ img {
     height: 350px;
     font-size: 36px;
     color: #1F2937;
+    padding-bottom: 50px;
 }
 
 .actual-quote {
@@ -126,3 +132,29 @@ img {
     width: 300px;
 }
 
+.grey-block {
+    background-color: grey;
+    height: 150px;
+    width: 300px;
+}
+
+
+.hero-signup {
+    cursor: pointer;
+}
+
+h2 {
+    text-align: center;
+}
+
+.call-btn button{
+    border-radius: 5px;
+    background-color: #3882F6;
+    padding: 5px 10px;
+    border: none;
+    border-style: solid;
+    border-color: white;
+    border-width: thin;
+    color: white;
+    font-weight: bold;
+}
