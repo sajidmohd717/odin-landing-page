@@ -1,0 +1,82 @@
+.header img {
+    height: 50px;
+    width: 50px;
+}
+
+.header, .hero {
+    background-color: #1f2937;
+    color: white;
+}
+
+img {
+    /* transform: scale(0.01); */
+    padding-left: 120px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0px 100px;
+}
+
+.header-logo {
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero-text {
+    margin: 0px;
+}
+
+body {
+    margin: 0px;
+}
+
+.hero {
+    display: flex;
+    padding: 100px 100px;
+}
+
+button {
+    background-color: lightblue;
+}
+
+.square {
+    height: 100px;
+    width: 100px;
+    border: solid blue;
+}
+
+.content-info {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 70px;
+    padding: 0 50px;
+}
+
+.content-header {
+    text-align: center;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+}
