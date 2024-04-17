@@ -1,3 +1,7 @@
+body {
+    margin: 0px;
+}
+
 .header img {
     height: 50px;
     width: 50px;
@@ -33,9 +37,7 @@ a {
     margin: 0px;
 }
 
-body {
-    margin: 0px;
-}
+
 
 .hero {
     display: flex;
@@ -43,21 +45,26 @@ body {
 }
 
 button {
-    background-color: lightblue;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 7px;
+    padding: 7px 20px
 }
 
 .square {
-    height: 100px;
-    width: 100px;
+    height: 125px;
+    width: 125px;
     border: solid blue;
+    border-radius: 15px;
 }
 
 .content-info {
     display: flex;
+    gap: 10px;
     justify-content: center;
     text-align: center;
     align-items: center;
-    gap: 70px;
+    
     padding: 0 50px;
 }
 
@@ -79,4 +86,12 @@ button {
 .quote-text {
     font-size: 36px;
     font-style: italic;
+}
+
+.subtext {
+    width: 125px;
+}
+
+* {
+    font-size: 18px;
 }
