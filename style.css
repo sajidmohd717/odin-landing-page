@@ -1,6 +1,29 @@
+/** 
+ * Universal CSS 
+ */
+
+* {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
     margin: 0px;
 }
+
+img {
+    width: 300px;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/**
+ Header CSS 
+ */
 
 .header img {
     height: 50px;
@@ -10,11 +33,6 @@ body {
 .header, .hero {
     background-color: #1f2937;
     color: white;
-}
-
-img {
-    /* transform: scale(0.01); */
-    padding-left: 120px;
 }
 
 .header {
@@ -28,27 +46,56 @@ img {
     margin-right: auto;
 }
 
-a {
-    text-decoration: none;
-    color: white;
-}
-
-.hero-text {
-    margin: 0px;
-}
-
+/** 
+*Hero CSS 
+*/
 
 
 .hero {
     display: flex;
     padding: 100px 100px;
+    gap: 100px;
 }
 
-button {
-    background-color: #3882F6;
-    color: white;
-    border-radius: 7px;
-    padding: 7px 20px
+.hero-text {
+    margin: 0px;
+    font-size: 48px;
+}
+
+.hero-secondary {
+    color: #E5E7EB;
+}
+
+
+/**
+* Quote CSS 
+*/
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 100px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: rgb(95, 94, 94);
+}
+
+.author {
+    text-align: end;
+    font-weight: bold;
+}
+
+
+/**
+* Content
+*/
+
+.content {
+    margin-bottom: 100px;
+    margin-top: 50px;
 }
 
 .square {
@@ -79,19 +126,70 @@ button {
     width: 150px;
 }
 
-.quote {
-    background-color: #E5E7EB;
+
+
+/**
+* Call to Action CSS 
+*/
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    background-color: #3882F6;
+    margin: 50px 100px;
+    border-radius: 10px;
+    color: white;
+    padding: 50px;
 }
 
-.quote-text {
-    font-size: 36px;
-    font-style: italic;
+.action-right button {
+    border: solid;
+    border-color: white;
+    border-width: medium;
 }
+
+.action-left p {
+    margin: 5px 0px;
+}
+
+.action-title {
+    font-weight: bold;
+}
+
+/**
+* copyright
+*/
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+}
+
+.footer p {
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+/* The End
+ ========================================================= */
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 7px;
+    padding: 7px 20px
+}
+
+
+
+
 
 .subtext {
     width: 125px;
 }
 
-* {
-    font-size: 18px;
-}
